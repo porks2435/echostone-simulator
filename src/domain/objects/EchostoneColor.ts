@@ -1,0 +1,1 @@
+export type EchostoneColor = 'Red' | 'Yellow' | 'Blue' | 'Silver' | 'Black'
