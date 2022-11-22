@@ -59,7 +59,7 @@ export default function App() {
   };
 
   const supplement = () => {
-    if (!!echostone) {
+    if (!!echostone && echostone.grade >= Echostone.MIN_SUPPLEMENT_GRADE && echostone.grade <= Echostone.MAX_SUPPLEMENT_GRADE) {
       const newEcho = echostone.applySupplement(musicbox);
       setEchostone(newEcho);
       setSupplementCount(supplementCount + 1)
