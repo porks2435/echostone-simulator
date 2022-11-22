@@ -174,7 +174,7 @@ export default function App() {
           <Stack direction="row" spacing={1} justifyContent="center" alignItems="center">
             <Input
                 id="rate-boost-input"
-                value={awakeningLevelInput}
+                value={advanceRateBoost}
                 onChange={onRateBoostInput}
                 type="number"
                 placeholder="Enter rate boost %"

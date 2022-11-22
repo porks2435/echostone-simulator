@@ -1,5 +1,7 @@
 https://porks2435.github.io/echostone-simulator
 
+Rates stolen from https://docs.google.com/spreadsheets/d/1-sRc31-MG4fPPRPNf9QrlfxnuMZNOOUmSQQ6XrDkMy4/edit#gid=287587631
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

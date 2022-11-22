@@ -2,613 +2,603 @@ import { AwakeningData } from "./AwakeningData";
 
 export const SILVER_ECHOSTONE_AWAKENINGS: AwakeningData[] = [
   {
-    "name": "Luck",
+    "name": "Will",
     "level": 3,
-    "rate": 2.05
+    "rate": 1.03
   },
   {
-    "name": "Fire",
-    "level": 1,
-    "rate": 0.05
-  },
-  {
-    "name": "Ice",
-    "level": 1,
-    "rate": 0.05
-  },
-  {
-    "name": "Lightning",
-    "level": 1,
-    "rate": 0.05
-  },
-  {
-    "name": "Poison Immunity",
-    "level": 5,
-    "rate": 2.05
-  },
-  {
-    "name": "Petrification Immunity",
-    "level": 5,
-    "rate": 2.05
-  },
-  {
-    "name": "Stomp Defense",
-    "level": 5,
-    "rate": 2.05
-  },
-  {
-    "name": "Explosion Defense",
-    "level": 5,
-    "rate": 2.05
-  },
-  {
-    "name": "Summon Golem Training EXP",
+    "name": "Daemon of Physis Training EXP",
     "level": 10,
-    "rate": 1.23
+    "rate": 0.27
   },
   {
-    "name": "Metal Conversion Training EXP",
+    "name": "Awakening of Light Training EXP",
     "level": 10,
-    "rate": 0.92
+    "rate": 0.1
   },
   {
-    "name": "Fragmentation Training EXP",
+    "name": "Soul of Chaos Training EXP",
     "level": 10,
-    "rate": 0.09
+    "rate": 0.27
   },
   {
-    "name": "Water Cannon Training EXP",
+    "name": "Spirit of Order Training EXP",
     "level": 10,
-    "rate": 0.09
+    "rate": 0.27
   },
   {
-    "name": "Wind Blast Training EXP",
+    "name": "Fury of Connous Training EXP",
     "level": 10,
-    "rate": 0.09
+    "rate": 0.27
   },
   {
-    "name": "Flame Burst Training EXP",
-    "level": 10,
-    "rate": 0.09
-  },
-  {
-    "name": "Synthesis Training EXP",
-    "level": 10,
-    "rate": 0.09
-  },
-  {
-    "name": "Evasion Total Cooldown Limit",
+    "name": "Daemon of Physis Duration",
     "level": 20,
-    "rate": 2.05
+    "rate": 0.1
   },
   {
-    "name": "Evasion Stamina Consumption",
+    "name": "Daemon of Physis [Transforming] Max Damage",
     "level": 20,
-    "rate": 1.23
+    "rate": 0.1
   },
   {
-    "name": "Gold Strike Min Damage",
+    "name": "Daemon of Physis [Transforming] Min Damage",
     "level": 20,
-    "rate": 0.92
+    "rate": 0.1
   },
   {
-    "name": "Gold Strike Max Damage",
+    "name": "Life of Physis [Transforming] Stamina",
     "level": 20,
-    "rate": 0.92
+    "rate": 1.03
   },
   {
-    "name": "Summon Golem Golem Max HP",
+    "name": "Life of Physis [Transforming] Will",
     "level": 20,
-    "rate": 2.05
+    "rate": 1.03
   },
   {
-    "name": "Summon Golem Golem Summon Duration",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Summon Golem Golem Damage",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Summon Golem Golem Defense",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Summon Golem Golem Protection",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Life Drain Life Absorbed",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Life Drain Damage",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Rain Casting Cloud Duration",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Rain Casting Cloud Range",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Rain Casting Cooldown Reduction",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Water Alchemy Efficiency",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Wind Alchemy Efficiency",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Barrier Spikes Max HP",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Barrier Spikes Duration",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Fire Alchemy Efficiency",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Sand Burst Blindness Enhancement",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Sand Burst Max Blindness Duration",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Sand Burst Min Blindness Duration",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Sand Burst Max Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Sand Burst Min Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Shock Stun Duration",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Shock Range",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Shock Effect Duration",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Water Cannon Range",
-    "level": 20,
-    "rate": 0.92
-  },
-  {
-    "name": "Water Cannon Max Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Water Cannon Min Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Wind Blast Attack Range",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Wind Blast Max Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Wind Blast Min Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Exploration Range",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Flame Burst Attack Range",
-    "level": 20,
-    "rate": 0.92
-  },
-  {
-    "name": "Flame Burst Stun Duration",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Flame Burst Duration",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Flame Burst Max Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Flame Burst Min Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Earth Alchemy Mastery Efficiency",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Heat Buster Max Damage",
-    "level": 20,
-    "rate": 0.92
-  },
-  {
-    "name": "Heat Buster Min Damage",
-    "level": 20,
-    "rate": 0.92
-  },
-  {
-    "name": "Rain Casting Water Cannon Damage",
-    "level": 20,
-    "rate": 2.05
-  },
-  {
-    "name": "Shock Max Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Shock Min Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Crisis Escape Duration",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Hydra Transmutation Duration",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Hydra Transmutation Min Damage",
+    "name": "Life of Physis [Transforming] Strength",
     "level": 6,
-    "rate": 0.31
+    "rate": 0.27
   },
   {
-    "name": "Hydra Transmutation Max Damage",
+    "name": "Wings of Rage Damage",
     "level": 20,
-    "rate": 0.09
+    "rate": 2.05
   },
   {
-    "name": "Hydra Transmutation Magic Defense Reduction",
+    "name": "Wings of Rage Range",
     "level": 20,
-    "rate": 0.31
+    "rate": 1.03
   },
   {
-    "name": "Hydra Transmutation Magic Protection Reduction",
+    "name": "Wings of Rage Attack Range",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.68
   },
   {
-    "name": "Spider Shot Immobilization Time",
+    "name": "Wings of Rage Cooldown",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.68
   },
   {
-    "name": "Spider Shot Crit Rate During Immobilization",
+    "name": "Mind of Connous [Transforming] Max MP",
     "level": 20,
-    "rate": 0.31
+    "rate": 1.03
   },
   {
-    "name": "Doppelganger Max Damage",
+    "name": "Mind of Connous [Transforming] INT",
     "level": 20,
-    "rate": 0.31
+    "rate": 2.05
   },
   {
-    "name": "Doppelganger Min Damage",
+    "name": "Body of Chaos [Transforming] STR",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.1
   },
   {
-    "name": "Berserk Strength Increase",
+    "name": "Mind of Chaos [Transforming] Critical",
+    "level": 6,
+    "rate": 0.68
+  },
+  {
+    "name": "Mind of Chaos [Transforming] INT",
     "level": 20,
-    "rate": 0.31
+    "rate": 2.05
   },
   {
-    "name": "Berserk Duration",
+    "name": "Awakening of Light Cooldown",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.68
   },
   {
-    "name": "Combo: Counter Punch Damage",
+    "name": "Shadow Spirit Damage",
     "level": 20,
-    "rate": 0.31
+    "rate": 2.05
   },
   {
-    "name": "Combo: Counter Punch Critical Damage",
+    "name": "Sharpness of Connous [Transforming] DEX",
     "level": 20,
-    "rate": 0.31
+    "rate": 1.03
   },
   {
-    "name": "Shockwave Min Damage",
+    "name": "Sharpness of Connous [Transforming] Critical",
+    "level": 6,
+    "rate": 0.68
+  },
+  {
+    "name": "Sword of Order [Transforming] Injury Rate",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.1
   },
   {
-    "name": "Shockwave Max Damage",
+    "name": "Sword of Order [Transforming] Damage",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.1
   },
   {
-    "name": "Shockwave Cooldown Reset Chance",
+    "name": "Soul of Chaos [Transforming] Max Stamina",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.68
   },
   {
-    "name": "Dorcha Mastery Dorcha Skill Damage",
+    "name": "Soul of Chaos [Transforming] STR",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.68
   },
   {
-    "name": "Chain Blade Mastery Min Damage",
+    "name": "Soul of Chaos [Transforming] Max MP",
     "level": 20,
-    "rate": 0.31
+    "rate": 1.03
   },
   {
-    "name": "Chain Blade Mastery Max Damage",
+    "name": "Soul of Chaos Duration",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.1
   },
   {
-    "name": "Dorcha Snatch Dorcha Acquired",
+    "name": "Spell of Physis [Transforming] INT",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Spell of Physis [Transforming] Critical",
+    "level": 6,
+    "rate": 0.68
+  },
+  {
+    "name": "Spell of Physis [Transforming] Max MP",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Spirit of Order Duration",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Spirit of Order [Transforming] Max MP",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Spirit of Order [Transforming] Max HP",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Spirit of Order [Transforming] Defense",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Spirit of Order [Transforming] Protection",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Spirit of Order [Transforming] Max Stamina",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Spear of Light Range",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Spear of Light Explosion Range",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Shield of Physis [Transforming] Defense",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Shield of Physis [Transforming] Protection",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Shield of Physis [Transforming] Max HP",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Armor of Connous [Transforming] Protection",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Armor of Connous [Transforming] Will",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Armor of Connous [Transforming] Defense",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Eye of Order [Transforming] Dexterity",
+    "level": 6,
+    "rate": 0.27
+  },
+  {
+    "name": "Elven Magic Missile Magic Damage",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Elven Magic Missile Ranged Attack Damage",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Wings of Eclipse Cooldown",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Giant Full Swing Damage",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Giant Full Swing Exclusive Weapon Damage",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Giant Full Swing Attack Range",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Giant Full Swing Exclusive Weapon Range",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Control of Darkness Duration",
+    "level": 6,
+    "rate": 0.27
+  },
+  {
+    "name": "Power of Order [Transforming] Will",
+    "level": 6,
+    "rate": 0.27
+  },
+  {
+    "name": "Power of Order [Transforming] Strength",
+    "level": 6,
+    "rate": 0.27
+  },
+  {
+    "name": "Fury of Light Attack Range",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Fury of Light Damage",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Fury of Light Cooldown",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Fury of Connous [Transforming] Max Injury Rate",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Fury of Connous [Transforming] Min Injury Rate",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Fury of Connous Duration",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Fury of Connous [Transforming] Max Damage",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Fury of Connous [Transforming] Max HP Amplify",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Fury of Connous [Transforming] Max Stamina",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Fury of Connous [Transforming] Min Damage",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Fury of Connous [Transforming] STR",
+    "level": 6,
+    "rate": 0.27
+  },
+  {
+    "name": "Hands of Chaos [Transforming] Injury Rate",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Hands of Chaos [Transforming] Dex",
+    "level": 20,
+    "rate": 0.68
+  },
+  {
+    "name": "Charging Strike Damage",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Charging Strike Cooldown",
+    "level": 3,
+    "rate": 1.03
+  },
+  {
+    "name": "Charging Strike Range",
+    "level": 3,
+    "rate": 1.03
+  },
+  {
+    "name": "Focused Fist Damage",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Focused Fist Cooldown Decreased",
+    "level": 3,
+    "rate": 0.68
+  },
+  {
+    "name": "Focused Fist Charge Time Reduction",
+    "level": 6,
+    "rate": 0.1
+  },
+  {
+    "name": "Focused Fist Charge Range",
+    "level": 3,
+    "rate": 1.03
+  },
+  {
+    "name": "Spinning Uppercut Damage Increase",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Spinning Uppercut Cooldown",
+    "level": 6,
+    "rate": 0.1
+  },
+  {
+    "name": "Spinning Uppercut Defense Reduction",
     "level": 10,
-    "rate": 0.09
+    "rate": 1.03
   },
   {
-    "name": "Chain Impale Damage",
+    "name": "Spinning Uppercut Protection Reduction",
+    "level": 5,
+    "rate": 0.27
+  },
+  {
+    "name": "Spinning Uppercut Def/Prot Reduction Chance",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.27
   },
   {
-    "name": "Raging Spike Damage",
+    "name": "Somersault Kick Damage",
     "level": 20,
-    "rate": 0.09
+    "rate": 1.03
   },
   {
-    "name": "Raging Spike Attack Spread",
+    "name": "Somersault Kick Cooldown",
+    "level": 6,
+    "rate": 0.1
+  },
+  {
+    "name": "Somersault Kick Daze Duration",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.1
   },
   {
-    "name": "Raging Spike Knockdown Range Increase",
+    "name": "Somersault Kick Daze Chance",
     "level": 20,
-    "rate": 0.92
+    "rate": 1.03
   },
   {
-    "name": "Spinning Slasher Damage",
+    "name": "Drop Kick Damage",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.27
   },
   {
-    "name": "Spinning Slasher Effective Range",
+    "name": "Drop Kick Cooldown",
+    "level": 6,
+    "rate": 0.1
+  },
+  {
+    "name": "Drop Kick Splash Range (Width)",
     "level": 20,
-    "rate": 0.31
+    "rate": 0.1
   },
   {
-    "name": "Chain Crush Damage",
-    "level": 3,
-    "rate": 0.09
+    "name": "Drop Kick Splash Range",
+    "level": 20,
+    "rate": 1.03
   },
   {
-    "name": "Chain Crush Silence Duration",
+    "name": "Drop Kick Splash Damage",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Pummel Damage",
+    "level": 20,
+    "rate": 0.1
+  },
+  {
+    "name": "Pummel Cooldown",
+    "level": 6,
+    "rate": 0.1
+  },
+  {
+    "name": "Combo Mastery Damage",
     "level": 10,
-    "rate": 0.92
+    "rate": 0.68
   },
   {
-    "name": "Chain Sweep Damage",
+    "name": "Knuckle Mastery Min Damage",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.68
   },
   {
-    "name": "Chain Sweep Effective Distance",
+    "name": "Knuckle Mastery Max Damage",
     "level": 20,
-    "rate": 0.92
+    "rate": 0.27
   },
   {
-    "name": "Chain Sweep Attack Range",
+    "name": "Knuckle Mastery Balance",
     "level": 20,
-    "rate": 0.92
+    "rate": 0.68
   },
   {
-    "name": "Dorcha Conversion Cooldown",
-    "level": 3,
-    "rate": 0.09
-  },
-  {
-    "name": "Dorcha Conversion HP Consumed",
-    "level": 20,
-    "rate": 1.23
-  },
-  {
-    "name": "Dorcha Conversion Leeched Dorcha",
-    "level": 3,
-    "rate": 0.31
-  },
-  {
-    "name": "Anchor Rush Max Movement Range",
-    "level": 20,
-    "rate": 0.92
-  },
-  {
-    "name": "Death Mark Mark Duration",
-    "level": 3,
-    "rate": 0.31
-  },
-  {
-    "name": "Death Mark Damage Amplification",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Chain Burst Duration",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Bachram Explosion Damage",
-    "level": 20,
-    "rate": 0.09
-  },
-  {
-    "name": "Bachram Explosion Attack Range",
-    "level": 20,
-    "rate": 0.31
-  },
-  {
-    "name": "Attack Speed",
+    "name": "Respite HP Recovery",
     "level": 5,
-    "rate": 0.31
+    "rate": 0.68
   },
   {
-    "name": "Auto Melee Defense",
+    "name": "Respite Stamina Recovery",
     "level": 5,
-    "rate": 2.05
+    "rate": 1.03
   },
   {
-    "name": "Earth Alchemy",
-    "level": 3,
-    "rate": 2.05
-  },
-  {
-    "name": "Auto Magic Deense",
-    "level": 5,
-    "rate": 2.05
-  },
-  {
-    "name": "Water Alchemy",
-    "level": 3,
-    "rate": 2.05
-  },
-  {
-    "name": "Wind Alchemy",
-    "level": 3,
-    "rate": 2.05
-  },
-  {
-    "name": "Defense",
-    "level": 3,
-    "rate": 0.92
-  },
-  {
-    "name": "Balance Increase",
-    "level": 3,
-    "rate": 2.05
-  },
-  {
-    "name": "Protection",
-    "level": 3,
-    "rate": 0.31
-  },
-  {
-    "name": "Fire Alchemy",
-    "level": 3,
-    "rate": 2.05
-  },
-  {
-    "name": "Auto Ranged Defense",
-    "level": 5,
-    "rate": 2.05
-  },
-  {
-    "name": "Max Attack Power",
-    "level": 3,
-    "rate": 0.09
-  },
-  {
-    "name": "Max Injury Rate",
-    "level": 3,
-    "rate": 2.05
-  },
-  {
-    "name": "Maximum Mana Increase",
+    "name": "Shuriken Mastery Min Damage",
     "level": 20,
     "rate": 2.05
   },
   {
-    "name": "Minimum Attack Power",
-    "level": 3,
-    "rate": 0.09
+    "name": "Shuriken Mastery Max Damage",
+    "level": 20,
+    "rate": 0.27
   },
   {
-    "name": "Maximum Health Increase",
+    "name": "Shuriken Charge Splash Range",
     "level": 20,
     "rate": 2.05
   },
   {
-    "name": "Maximum Stamina Increase",
+    "name": "Kunai Storm Damage",
     "level": 20,
-    "rate": 0.09
+    "rate": 0.27
   },
   {
-    "name": "Minimum Injury Rate",
+    "name": "Kunai Storm Attack Range",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Explosive Kunai Explosive Damage",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Explosive Kunai Quantity",
     "level": 3,
     "rate": 2.05
   },
   {
-    "name": "Critical",
-    "level": 3,
-    "rate": 0.31
+    "name": "Explosive Kunai Speed Debuff Duration",
+    "level": 20,
+    "rate": 0.27
   },
   {
-    "name": "Frozen Blast Duration",
-    "level": 3,
+    "name": "Shadow Bind Duration",
+    "level": 20,
     "rate": 2.05
   },
   {
-    "name": "Frozen Blast Range",
-    "level": 3,
+    "name": "Shadow Cloak Duration",
+    "level": 20,
+    "rate": 0.27
+  },
+  {
+    "name": "Shadow Cloak Tornado Damage",
+    "level": 20,
     "rate": 2.05
-  }
+  },
+  {
+    "name": "Smokescreen Smoke Range",
+    "level": 20,
+    "rate": 2.05
+  },
+  {
+    "name": "Smokescreen Def + Magic Defense Reduction",
+    "level": 20,
+    "rate": 0.27
+  },
+  {
+    "name": "Sakura Abyss Attack Range",
+    "level": 20,
+    "rate": 0.27
+  },
+  {
+    "name": "Spear of Light Damage",
+    "level": 20,
+    "rate": 1.03
+  },
+  {
+    "name": "Fynn Crafting Training EXP",
+    "level": 10,
+    "rate": 0.1
+  },
+  {
+    "name": "Fynn Crafting Great Success Rate",
+    "level": 10,
+    "rate": 0.34
+  },
+  {
+    "name": "Fynn Crafting Item Bonus upon Great Success",
+    "level": 3,
+    "rate": 0.1
+  },
+  {
+    "name": "Fynn Crafting Item Crafting Buff Duration",
+    "level": 10,
+    "rate": 0.34
+  },
 ];
