@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/echostone-simulator/precache-manifest.b4cde730302af6d3108b6af0679e2829.js"
+  "/echostone-simulator/precache-manifest.0f9f42a7b4333a3e012029515ccaaebc.js"
 );
 
 workbox.clientsClaim();
