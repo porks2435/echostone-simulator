@@ -10,3 +10,7 @@ export function pickWeightedOption(options: WeightedOption[], totalWeight: numbe
         // find min
         .reduce((prev, current) => (prev.cumulativeWeight < current.cumulativeWeight) ? prev : current);
 }
+
+export function randomNumberInRange(min: number, max: number) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}

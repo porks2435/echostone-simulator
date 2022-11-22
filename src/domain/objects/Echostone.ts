@@ -1,10 +1,13 @@
 import { EchostoneColor } from "./EchostoneColor";
 import { Awakening, AwakeningLevel } from "./Awakening";
 import { MusicBox } from "./MusicBox";
-import { pickWeightedOption } from "../utils/RngUtils";
+import { pickWeightedOption, randomNumberInRange } from "../utils/RngUtils";
 
 export class Echostone {
-    public static MAX_LEVEL = 30;
+    public static MAX_GRADE = 30;
+    public static MIN_SUPPLEMENT_GRADE = 8;
+    public static MAX_SUPPLEMENT_GRADE = 24;
+
     constructor(
         public grade: number,
         public stat: number,
@@ -18,7 +21,7 @@ export class Echostone {
     }
 
     advance(musicbox: MusicBox, boost: number = 0): Echostone {
-        if (this.grade === Echostone.MAX_LEVEL) {
+        if (this.grade === Echostone.MAX_GRADE) {
             return this;
         }
 
@@ -48,6 +51,19 @@ export class Echostone {
         });
     }
 
+    applySupplement(musicbox: MusicBox): Echostone {
+        if (this.grade >= Echostone.MIN_SUPPLEMENT_GRADE && this.grade <= Echostone.MAX_SUPPLEMENT_GRADE) {
+            const rate = musicbox.getAdvancementRate(this.grade - 1);
+            const minGain = !!rate ? rate.minGain : 0;
+            const maxGain = !!rate ? rate.maxGain : 0;
+            const newStat = randomNumberInRange(minGain, maxGain);
+
+            return new Echostone(this.grade, newStat, this.color, this.previousGrade, this.awakening);
+        }
+
+        return this;
+    }
+
     private _canAdvance(successRate: number): boolean {
         const rng = Math.random() * 100;
 
@@ -62,7 +78,7 @@ export class Echostone {
     }
 
     private _advance(minGain: number, maxGain: number): Echostone {
-        const nextStat = Math.floor(Math.random() * (maxGain - minGain + 1) + minGain);
+        const nextStat = randomNumberInRange(minGain, maxGain);
         return new Echostone(this.grade + 1, nextStat, this.color, this, this.awakening);
     }
 };
